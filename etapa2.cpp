@@ -974,16 +974,24 @@ public:
     }
     friend istream& operator>>(istream& in, Pacient& pac)
     {
-        char aux[100];
+        string aux;
         cout << "\nIntroduceti numele ";
         in.ignore();
         getline(in, aux);
 
 
+
         if (pac.nume != NULL)
             delete[] pac.nume;
-        pac.nume = new char[strlen(aux) + 1];
-        strcpy(pac.nume, aux);
+        pac.nume = new char[aux.size() + 1];
+        for (int i = 0; i < aux.size(); i++)
+        {
+            pac.nume[i] = aux[i];
+        }
+        pac.nume[aux.size()] = '\0';
+
+
+
 
         cout << "Introduceti varsta ";
         in >> pac.varsta;
