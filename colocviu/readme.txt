@@ -10,3 +10,5 @@ list[1]=new VaccinAntihepatic ();
 list[2]=new VaccinAntiSarsCov2();
 ================================
 Am meniu din care pot adauga un vaccin, chiar mai multe odata si apoi sa afisez toate vaccinurile;
+1- Adaugare vaccin;
+2- Afisare vaccine;
