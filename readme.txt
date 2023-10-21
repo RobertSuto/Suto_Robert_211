@@ -1,9 +1,11 @@
-Proiectul contine 4 clase: PACIENT,PERSONAL,DEZINFECTANT, MEDICAMENT
-Pacient si personal au toate variabilele de la 4, constructorii, destructorii si supraincarcarile
+# Medical Records Management System
 
-La executare, proiectul afiseaza un meniu, necomplet deoarece nu mi-am dat seama daca acesta trebuie
-sa fie prezent doar in etapa 3 sau de acum.
-Putem adauga un Personal, si un Pacient din el, sa stergem la alegere si sa ii afisam.
-AM REZOLVAT ASTA !!!!!!!!!!!!!!!!!!!!!!!!!! De asemenea programul intra in loop daca dau un nume format din mai multe cuvinte(incerc inca sa lucrez la asta), si da crash daca incerc sa sterg un personal inainte de a introduce unul.
-Practic, in main putem sa folosim doar clasele Pacient si Personal, celalalte doua neffin puse in Meniu.(din nou, nu mi-am dat seama daca acesta trebuie
-sa fie prezent doar in etapa 3 sau de acum.
+This project contains four main classes: **PACIENT**, **PERSONAL**, **DEZINFECTANT**, and **MEDICAMENT**. Both **Pacient** and **Personal** classes include all necessary variables, constructors, destructors, and method overloads.
+
+## Features
+
+- Upon execution, the project displays a menu, which is not yet fully completed, as it's uncertain whether it should only be present in the third phase or from now on.
+- You can add a **Personal** and a **Pacient** from it, delete them as needed, and display their information.
+- **Note:** There is an issue with the program entering a loop when providing a multi-word name (still working on fixing this), and the program crashes if you attempt to delete a **Personal** before adding one.
+
+In essence, in the main program, we can currently use only the **Pacient** and **Personal** classes, while the other two classes are not integrated into the menu. (Again, it's unclear if they should be included only in the third phase or from this point onward).
